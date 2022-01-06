@@ -1,18 +1,32 @@
 body{
     margin: 0;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Yeseva One', cursive;
+}
+.head{
+   
+    align-items: center;
+    float: left;
+    margin-top: 130px;
+}
+.head-line{
+    border-left: 5px solid #5822B9;
+   height: 140px;
+   border-radius: 5px;
+   
 }
 h1{
-    font-size: 70px;
-    font-weight: bold;
+    font-size: 50px;
+    margin-left: 5px;
+    
 }
 .purple{
     color: purple;
 }
 .first-part{
-    margin-left: 80px;
-    margin-top: 40px;
+    margin-left: 90px;
+    margin-top: 10px;
     display: flex;
+    
 }
 .third-part{
    
@@ -20,6 +34,8 @@ h1{
 }
 .half{
     width: 50%;
+    margin-top: 80px;
+    margin-left: 10px;
 }
 .halff {
    width: 50%;
@@ -55,6 +71,9 @@ a{
     color: white;
     border-radius: 5px;
   
+}
+.halff p{
+    margin-bottom: 40px;
 }
 .para{
     margin-top: 60px;
@@ -134,4 +153,23 @@ h4{
     color: white;
     font-size: 15px;
     text-align: center;
+}
+footer{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    
+}
+footer h1{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+ h5{
+    text-align: center;
+    color: white;
+    padding-bottom: 70px;
 }
