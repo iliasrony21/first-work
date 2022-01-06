@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.purple{
+    color: purple;
+}
+.first-part{
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.half{
+    width: 50%;
+}
+.half img{
+    width: 80%;
+}
+.first-part{
+    display: flex;
+
+}   
+a{
+    text-decoration: none;
+    border: 2px solid orangered;
+    background-color: orangered;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+  
+}
+.para{
+    margin-top: 60px;
+}
+.para1{
+   margin-bottom: 38px;
+}
