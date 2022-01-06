@@ -12,17 +12,14 @@ h1{
 .first-part{
     margin-left: 80px;
     margin-top: 40px;
+    display: flex;
 }
 .half{
     width: 50%;
 }
 .half img{
     width: 80%;
-}
-.first-part{
-    display: flex;
-
-}   
+}  
 a{
     text-decoration: none;
     border: 2px solid orangered;
@@ -37,4 +34,36 @@ a{
 }
 .para1{
    margin-bottom: 38px;
+}
+.center{
+    text-align: center;
+    margin-top: 100px;
+}
+.third{
+    width: 35%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+   
+}
+.third img{
+    width: 40%;
+}
+.missions{
+    display: flex;
+}
+h3{
+    margin-left: 40px;
+}
+.background{
+    background-color: #EDF5F6;
+}
+.background2{
+    background-color: #FFEEEE;
+}
+.background3{
+     background-color: #FFF4D6;
 }
