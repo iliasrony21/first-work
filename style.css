@@ -16,15 +16,14 @@ body{
 }
 h1{
     font-size: 50px;
-    margin-left: 5px;
-    
+    margin-left: 5px;     
 }
 .purple{
     color: purple;
 }
 .first-part{
     margin-left: 90px;
-    margin-top: 10px;
+    margin-top: 0px;
     display: flex;
     
 }
@@ -36,6 +35,10 @@ h1{
     width: 50%;
     margin-top: 80px;
     margin-left: 10px;
+    padding: 0;
+}
+.half img{
+    width: 80%;
 }
 .halff {
    width: 50%;
@@ -46,9 +49,7 @@ h1{
     margin-left: 110px;
     margin-bottom: 80px;
 }
-.half img{
-    width: 80%;
-} 
+ 
 .third-part{
     background-image: url(images/shape1.png);
     margin-left: 50px;
@@ -165,11 +166,12 @@ footer h1{
     color: white;
     font-size: 30px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom:30px;
     padding-top: 40px;
 }
- h5{
+footer h5{
     text-align: center;
     color: white;
-    padding-bottom: 70px;
+    padding-bottom: 40px;
+    margin: 0;
 }
